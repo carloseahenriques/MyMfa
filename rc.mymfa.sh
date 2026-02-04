@@ -1,5 +1,7 @@
 #!/bin/bash
 
+trap exit 2 3 20 #Previne a saída manual do script
+
 read -p "
 Qual conta deseja logar-se?
 ===========================
